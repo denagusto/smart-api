@@ -101,7 +101,7 @@ class ProjectController extends AbstractController
                 'creator' => $project->getCreator()->getId(),
                 'createdAt' => $project->getCreatedAt()->format('Y-m-d H:i:s'),
                 'updatedAt' => $project->getUpdatedAt()->format('Y-m-d H:i:s'),
-            ], Response::HTTP_OK]);
+            ]], Response::HTTP_OK);
     }
 
     #[Route('/api/projects/{id}', name: 'project_update', methods: ['PUT'])]
