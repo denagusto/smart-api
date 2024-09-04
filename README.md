@@ -1,3 +1,4 @@
+
 ### Agus Riyanto (Sr. Programmer PHP)
 
 This repository is for completing SMART Interview Test Case. This repository is including:
@@ -18,17 +19,19 @@ This repository is for completing SMART Interview Test Case. This repository is 
 
 # How to Run
 
-###Using Composer
+## Using Composer
+
     composer install
-	php bin/console doctrine:migrations:migrate
-	php bin/console doctrine:fixtures:load
+    php bin/console doctrine:migrations:migrate
+    php bin/console doctrine:fixtures:load
 
 The Fixture / Seed Migration automatically create user:
 
 email : admin@harakirimail.com
 password : password123
 
-###Using Docker
+## Using Docker
+
     docker compose up -d //Build the docker container
 	docker exec -it <container name> bash //Come in to container shell
 	php bin/console doctrine:migrations:migrate //Generate table needed
@@ -45,6 +48,6 @@ The Fixture / Seed Migration automatically create user:
 email : admin@harakirimail.com
 password : password123
 
-##### ### IF YOU NEED HELP FOR RUNNING THE SYSTEM PLEASE CONTACT ME : +681234549210
+##### IF YOU NEED HELP FOR RUNNING THE SYSTEM PLEASE CONTACT ME : +681234549210
 
 agus.riyanto007@gmail.com
