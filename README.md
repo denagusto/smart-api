@@ -40,8 +40,7 @@ password : password123
 	
 	./vendor/bin/phpunit --testdox   //to run unit test
 
-
-![enter image description here](https://i.ibb.co.com/H20NvfJ/unit-test.png)
+![Unit Test Preview](https://i.ibb.co.com/kyp3nsd/unit-test.png)
 The Fixture / Seed Migration automatically create user:
 
 email : admin@harakirimail.com
